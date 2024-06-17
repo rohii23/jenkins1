@@ -17,7 +17,7 @@ yum install java -y
 wget https://download.bell-sw.com/java/11.0.4/bellsoft-jdk11.0.4-linux-amd64.rpm
 rpm -ivh bellsoft-jdk11.0.4-linux-amd64.rpm 
 
-#alternatives --config java 
+alternatives --config java 
 
 Configure Linux System for Sonarqube 
 
